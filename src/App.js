@@ -1,22 +1,22 @@
 import React from 'react';
 import './App.css';
+import Header from './Header';
+import Navbarhome from './Navbar';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbarhome />
+      <Header />
+      <div className="container">
+        <div class="no-bears-logo">
+        </div>
+
+        <div class="jager-cor">
+          <img class="cover" src="https://picsum.photos/id/1021/705/460" alt="mountains" />
+        </div>
+      </div>
     </div>
   );
 }
