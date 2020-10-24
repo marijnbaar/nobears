@@ -88,4 +88,7 @@
   min-height: 100%
 }
 
-
+.app {
+  z-index: 1;
+  position: absolute;
+}

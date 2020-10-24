@@ -2,12 +2,16 @@ import React from 'react';
 import './App.css';
 import MyBoard from './MyBoard.js'
 import Card from './Card.js'
+import Header from './Header';
+import Navbarhome from './Navbar';
 
 function App(card) {
 
   return (
     <div className="App">
-      {card ? <Card /> : <MyBoard />}
+      <Navbarhome />
+      <Header />
+      <MyBoard />
     </div>
   );
 }

@@ -5,9 +5,9 @@ import dots from "../src/assets/dots.svg"
 import heart from "../src/assets/heart.svg"
 import download from "../src/assets/download.svg"
 
-function Card() {
+function Card({ src, closeCard }) {
     return (
-            <div className="card-container">
+            <div className="card-container" onClick={closeCard}>
                 <div className="welcome-cor">
                     <div className="card-header">
                         <Image
@@ -33,7 +33,7 @@ function Card() {
                         />
                         <button className="save">Bewaren</button>
                     </div>
-                    <img className="cover" src="https://picsum.photos/id/1021/934/526" alt="mountains" />
+                    <img className="cover" src={src} alt="mountains" />
                     <div className="content-container">
                         <div className="card-text">
                             <h2 className="welcome">Aangenaam,</h2>
