@@ -102,3 +102,9 @@
     color: #111111;
     opacity: 1;
 }
+
+.thumbnail {
+    position: relative;
+    width: 13%;
+    margin-right: 2vw;
+}
