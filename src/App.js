@@ -3,7 +3,6 @@ import './App.css';
 import Header from './Header';
 import Navbarhome from './Navbar';
 
-
 function App() {
   return (
     <div className="App">
