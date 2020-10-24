@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import MyBoard from './MyBoard.js'
-import Card from './Card.js'
 import Header from './Header';
 import Navbarhome from './Navbar';
 

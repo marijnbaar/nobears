@@ -104,7 +104,8 @@
 }
 
 .thumbnail {
-    position: relative;
-    width: 13%;
-    margin-right: 2vw;
+    /* position: relative; */
+    width: 20vw;
+    /* margin-right: 2vw; */
+    padding-right: 10px;
 }
