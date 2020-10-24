@@ -1,0 +1,72 @@
+.cover img {
+    width: 934px;
+    height: 526px;
+    opacity: 1;
+    background: #111111 0% 0% no-repeat padding-box;
+    align-items: center;
+    overflow: hidden
+}
+
+.welcome-cor {
+    margin-top: 255px;
+    width: 934px;
+    height: 1207px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 30px #DADADA2E;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-header {
+    width: 934px;
+    height: 109px;
+    display: flex;
+}
+
+.dots {
+    align-items: left;
+    padding-left: 76px;
+    margin-top: 50px;
+    padding-right: 30px;
+}
+
+.heart {
+    align-items: left;
+    padding-right: 29px;
+    margin-top: 40px;
+}
+
+.download{
+    align-items:left;
+    margin-top: 40px;
+}
+
+.welcome {
+    text-align: left;
+    font: normal normal bold 30px/45px Filson Pro;
+    letter-spacing: 0px;
+    color: #35CBBF;
+    opacity: 1;
+}
+
+.name {
+    text-align: left;
+    font: normal normal bold 60px/45px Filson Pro;
+    letter-spacing: 0px;
+    color: #111111;
+    opacity: 1;
+}
+
+.lorem-ipsum {
+    text-align: left;
+    font: normal normal normal 18px/28px Filson Pro;
+    letter-spacing: 0px;
+    color: #111111;
+    opacity: 1;
+}

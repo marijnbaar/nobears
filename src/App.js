@@ -1,14 +1,13 @@
 import React from 'react';
 import './App.css';
 import MyBoard from './MyBoard.js'
+import Card from './Card.js'
 
-function App(id) {
+function App(card) {
 
-  const [state, setState] = React.useState('');
-  const handleChange = event => setState(event.target.value)
   return (
     <div className="App">
-      <MyBoard />
+      {card ? <Card /> : <MyBoard />}
     </div>
   );
 }
