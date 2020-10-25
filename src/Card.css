@@ -112,7 +112,6 @@
         height: 140vw;
     }
     .dots {
-        align-self: left;
         margin-right: auto;
         margin-top: 50px;
     }
@@ -146,6 +145,9 @@
     .save {
         margin-right: 40px !important;
     }
+    .card-header {
+        width: 60vw;
+    }
 }
 
 @media screen and (max-width: 667px) {
@@ -168,7 +170,10 @@
         padding-right: 20px
     }
     .save {
-        margin-right: 1px !important;
+        margin-right: 10px !important;
+    }
+    .card-header {
+        width: 80vw !important;
     }
 }
 
@@ -180,25 +185,60 @@
     }
     .dots {
         margin-right: auto;
-        margin-top: 50px;
+        margin-top: 48px;
+        width: 31px;
+        height: 6px
     }
     .heart {
         margin-right: auto;
         margin-top: 40px;
+        width: 23px;
+        height: 19px
     }
     .download {
         margin-right: auto;
         margin-top: 40px;
+        width: 25px;
+        height: 19px
     }
     .save {
-        margin-right: 5px !important;
-        width: 146px !important;
+        margin-right: 25px !important;
+        width: 136px;
     }
     .card-header {
         width: 90vw !important;
     }
-    /* .cover img {
-                                            width: 80vw !important;
-                                            height: auto;
-                                        } */
+}
+
+@media (max-device-width: 320px) {
+    .welcome-cor {
+        height: 450vw;
+        width: 90vw;
+        margin: 20vh 5vw;
+    }
+    .dots {
+        margin-right: auto;
+        margin-top: 48px;
+        width: 31px;
+        height: 6px
+    }
+    .heart {
+        margin-right: auto;
+        margin-top: 40px;
+        width: 23px;
+        height: 19px
+    }
+    .download {
+        margin-right: auto;
+        margin-top: 40px;
+        width: 25px;
+        height: 19px
+    }
+    .cover {
+        width: 90vw;
+    }   
+    .save {
+        margin-right: 10px !important;
+        width: 136px;
+    }
 }
