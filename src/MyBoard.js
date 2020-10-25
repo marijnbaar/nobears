@@ -1,6 +1,7 @@
-import './App.css';
+// import './App.css';
 import React from "react";
 import Card from './Card.js'
+import './MyBoard.css'
 
 const imageArray = [
   {
@@ -83,10 +84,10 @@ const imageArray = [
       {card ? <Card src={card} closeCard={closeCard} /> : null}
       <div className="container">
         {imageArray.map(image => (
-          <div className="thumbnail">
+        <div className="thumbnail">
             <img onClick={cardClick} src={image.src} alt={image.alt}></img>
-          </div>
-        ))}
+            </div>
+            ))}
       </div>
     </div>
   );

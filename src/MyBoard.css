@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    -ms-flexbox-wrap: wrap;
+    -ms-flexbox-direction: column;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: center;
+  } 
+
+
+.thumbnail {
+    /* position: relative;  */
+    /* width: 20vw; */
+    /* margin-right: 2vw; */
+    /* -webkit-box-flex: auto; */
+    /* flex: auto; */
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: red;
+
+}
+
+.thumbnail img {
+    width: 100%;
+    height: auto;
+}

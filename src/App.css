@@ -55,12 +55,6 @@
   opacity: 1;
 }
 
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
 .no-bears-logo {
   margin-left: 115px;
   width: 317px;
