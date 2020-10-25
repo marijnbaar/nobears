@@ -1,0 +1,38 @@
+.search-input {
+	padding: 20px 65px 20px 20px;
+    background: #F6F6F6 0% 0% no-repeat padding-box;
+    flex:1;
+    border: 1px solid #DADADA;
+    border-radius: 10px;
+    opacity: 1;
+    padding-left: 40px; 
+    width: 50vw; 
+}
+
+.search-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+  
+}
+
+.search-pic {
+    margin-left: 10px;
+    margin-top: 42px;
+    position:absolute; 
+    left:0; 
+    top:0; 
+
+}
+
+.nav-bar {
+    display: flex;
+    overflow: hidden
+}
+  
+  
+.logo {
+    margin-top: 16px;
+    margin-left: 115px;
+    padding-right: 10vw;
+  }

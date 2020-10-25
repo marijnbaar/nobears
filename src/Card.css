@@ -20,7 +20,7 @@
 
 .card-container {
     width: 100vw;
-    height: 700vh;
+    height: 350vh;
     background-color: rgba(255, 255, 255, 0.438);
     position: absolute;
     top: 0;
@@ -109,7 +109,7 @@
 
 @media screen and (max-width: 1024px) {
     .welcome-cor {
-        height: 140vw;
+        height: 170vw;
     }
     .dots {
         margin-right: auto;
@@ -148,11 +148,15 @@
     .card-header {
         width: 60vw;
     }
+    .card-container {
+        width: 100vw;
+        height: 450vh;
+    }
 }
 
 @media screen and (max-width: 667px) {
     .welcome-cor {
-        height: 210vw;
+        height: 250vw;
         width: 80vw;
         margin: 20vh 10vw;
     }
@@ -174,6 +178,10 @@
     }
     .card-header {
         width: 80vw !important;
+    }
+    .card-container {
+        width: 100vw;
+        height: 450vh;
     }
 }
 
@@ -208,6 +216,10 @@
     .card-header {
         width: 90vw !important;
     }
+    .card-container {
+        width: 100vw;
+        height: 1450vh;
+    }
 }
 
 @media (max-device-width: 320px) {
@@ -240,5 +252,9 @@
     .save {
         margin-right: 10px !important;
         width: 136px;
+    }
+    .card-container {
+        width: 100vw;
+        height: 1650vh;
     }
 }
