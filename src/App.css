@@ -3,13 +3,6 @@
   background-color: #ffffff;
 }
 
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .nav-bar {
   display: flex;
   justify-content: center;
@@ -44,7 +37,7 @@
 }
 
 .header-page { 
-  margin-left: 115px;
+  margin-left: 7vw;
   margin-top: 50px;
   text-align: left;
   font-family: filson-pro, sans-serif;
@@ -56,7 +49,7 @@
 }
 
 .no-bears-logo {
-  margin-left: 115px;
+  margin-left: 5vw;
   width: 317px;
   height: 567px;
   background: #111111 0% 0% no-repeat padding-box;

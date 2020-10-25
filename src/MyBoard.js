@@ -88,9 +88,6 @@ function MyBoard() {
             <img onClick={cardClick} src={image.src} alt={image.alt}></img>
           </div>
         ))}
-        <span class="thumbnail break"></span>
-        <span class="thumbnail break"></span>
-        <span class="thumbnail break"></span>
       </div>
     </div>
   );
