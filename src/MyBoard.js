@@ -2,6 +2,7 @@
 import React from "react";
 import Card from './Card.js'
 import './MyBoard.css'
+// import shortid from 'shortid';
 
 const imageArray = [
   {
@@ -83,9 +84,9 @@ function MyBoard() {
     <div className="board">
       {card ? <Card src={card} closeCard={closeCard} /> : null}
       <div className="container">
-        {imageArray.map(image => (
+        {imageArray.map((image) => (
           <div className="thumbnail">
-            <img onClick={cardClick} src={image.src} alt={image.alt}></img>
+            <img onClick={cardClick} key={image.toString()} src={image.src} alt={image.alt}></img>
           </div>
         ))}
       </div>

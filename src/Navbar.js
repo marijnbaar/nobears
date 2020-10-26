@@ -15,11 +15,11 @@ function Navbarhome() {
                 width="77"
                 height="90"
                 className="logo"
-                alt="NOBEARS logo"
+                alt="NOBEARS-logo"
             />
-            <div class="search-wrapper">
+            <div className="search-wrapper">
                 <input className="search-input" type="text" placeholder="Zoeken" />
-                <img class="search-pic" src={searchbar} />
+                <Image className="search-pic" src={searchbar} alt="nobears"/>
             </div>
             <Image
                 src={message}
