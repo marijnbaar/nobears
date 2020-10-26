@@ -22,7 +22,6 @@
     position:absolute; 
     left:0; 
     top:0; 
-    /* margin-top: 3vw; */
 }
 
 .nav-bar {
@@ -39,20 +38,48 @@
 
 .message {
     margin-top: 40px;
-    margin-left: 3vw;
+    margin-left: 6vw;
     margin-right: auto;
 }
 .notification {
     margin-right: auto;
     margin-top: 40px;
-    padding-left: 1vw;
 
 }
 .profile {
     margin-right: auto;
     margin-top: 37px;
-    padding-right: 4vw;
-    padding-left: 0.5vw;
+}
+
+@media screen and (min-width: 1920px) {
+    .search-input {
+        width: 45vw;
+        margin-top: 1vw;
+        padding-left: 4vw; 
+        padding-right: 11vw;
+        margin-left: 4vw;
+    }
+    .logo {
+        height: 6vw;
+        width: auto;
+    }
+    .search-pic {
+        margin-left: 5.5vw;
+        margin-top: 3.4vw;
+    }
+    .message {
+        margin-right: auto;
+        margin-left: 4vw;
+        margin-top: 5.8vh;
+    }
+    .notification {
+        margin-right: auto;
+        margin-top: 5.8vh;
+    }
+    .profile {
+        margin-right: auto;
+        margin-top: 5.5vh;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -101,15 +128,15 @@
     }
     .message {
         margin-right: auto;
-        margin-top: 4.5vh;
+        margin-top: 4vh;
     }
     .notification {
         margin-right: auto;
-        margin-top: 4.5vh;
+        margin-top: 4vh;
     }
     .profile {
         margin-right: auto;
-        margin-top: 4.2vh;
+        margin-top: 3.6vh;
     }
 }
 
@@ -129,15 +156,15 @@
     }
     .message {
         margin-right: auto;
-        margin-top: 4.5vh;
+        margin-top: 3vh;
     }
     .notification {
         margin-right: auto;
-        margin-top: 4.5vh;
+        margin-top: 3vh;
     }
     .profile {
         margin-right: auto;
-        margin-top: 4vh;
+        margin-top: 2.6vh;
     }
 }
 

@@ -22,6 +22,16 @@
 
 }
 
+@media screen and (min-width: 1920px) {
+    .container { 
+        height: 107vw; 
+    }    
+    .thumbnail img { 
+        width: 17vw;
+        height: auto; 
+ } 
+}
+
 @media screen and (max-width: 1200px) {
 	.container { 
         height: 300vw; 
@@ -30,7 +40,6 @@
     .thumbnail img { 
         width: 29vw;
         height: auto; 
-	
  } 
 }
 
