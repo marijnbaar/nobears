@@ -4,6 +4,7 @@ import Image from "react-bootstrap/Image"
 import dots from "../src/assets/dots.svg"
 import heart from "../src/assets/heart.svg"
 import download from "../src/assets/download.svg"
+import PropTypes from 'prop-types';
 
 function Card({ src, closeCard }) {
     return (
@@ -51,5 +52,10 @@ function Card({ src, closeCard }) {
             </div>
     );
 }
+
+Card.propTypes = {
+    closeCard: PropTypes.function.isRequired,
+    src: PropTypes.string.isRequired,
+  };
 
 export default Card;

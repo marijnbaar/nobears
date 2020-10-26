@@ -85,8 +85,8 @@ function MyBoard() {
       {card ? <Card src={card} closeCard={closeCard} /> : null}
       <div className="container">
         {imageArray.map((image) => (
-          <div className="thumbnail">
-            <img onClick={cardClick} key={image.toString()} src={image.src} alt={image.alt}></img>
+          <div className="thumbnail" key={image.toString()}>
+            <img onClick={cardClick} src={image.src} alt={image.alt}></img>
           </div>
         ))}
       </div>

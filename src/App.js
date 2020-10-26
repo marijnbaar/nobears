@@ -4,7 +4,7 @@ import MyBoard from './MyBoard.js'
 import Header from './Header';
 import Navbarhome from './Navbar';
 
-function App(card) {
+function App() {
 
   return (
     <div className="App">
