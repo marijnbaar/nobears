@@ -23,30 +23,6 @@
     "eject": "react-scripts eject",
     "lint": "eslint src/**/*.js"
   },
-  "eslintConfig": {
-    "extends": [
-      "salt",
-      "salt/react",
-      "salt/react/hooks"
-    ],
-    "rules": {
-      "react/jsx-closing-bracket-location": [
-        "error",
-        {
-          "selfClosing": "after-props",
-          "nonEmpty": "after-props"
-        }
-      ],
-      "react/jsx-filename-extension": [
-        "error",
-        {
-          "extensions": [
-            ".js"
-          ]
-        }
-      ]
-    }
-  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -59,8 +35,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "eslint": "^7.12.0",
-    "eslint-plugin-react": "^7.21.5"
-  }
+  "devDependencies": {}
 }
