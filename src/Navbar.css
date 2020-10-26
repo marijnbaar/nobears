@@ -33,6 +33,78 @@
   
 .logo {
     margin-top: 16px;
-    margin-left: 115px;
+    margin-left: 7vw;
     padding-right: 10vw;
-  }
+}
+
+.message {
+    margin-top: 40px;
+    margin-left: 3vw;
+    margin-right: auto;
+}
+.notification {
+    margin-right: auto;
+    margin-top: 40px;
+    padding-left: 1vw;
+
+}
+.profile {
+    margin-right: auto;
+    margin-top: 37px;
+    padding-right: 4vw;
+    padding-left: 0.5vw;
+}
+
+@media screen and (max-width: 1024px) {
+    .search-input {
+        width: 40vw;
+    }
+    /* .logo {
+        height: 170vw;
+    } */
+    .message {
+        margin-right: auto;
+        margin-top: 50px;
+    }
+    .notification {
+        margin-right: auto;
+        margin-top: 40px;
+    }
+    .profile {
+        margin-right: auto;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .search-input {
+        width: 20vw;
+    }
+    /* .logo {
+        height: 170vw;
+    } */
+    .message {
+        margin-right: auto;
+        margin-top: 50px;
+    }
+    .notification {
+        margin-right: auto;
+        /* margin-top: 40px; */
+    }
+    .profile {
+        margin-right: auto;
+        /* margin-top: 40px; */
+    }
+}
+
+@media screen and (max-width: 667px) {
+    
+}
+
+@media screen and (max-width: 480px) {
+   
+}
+
+@media (max-device-width: 320px) {
+   
+}

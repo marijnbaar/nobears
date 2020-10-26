@@ -26,14 +26,14 @@
   opacity: 1;
 }
 
-.no-bears-logo {
+/* .no-bears-logo {
   margin-left: 5vw;
   width: 317px;
   height: 567px;
   background: #111111 0% 0% no-repeat padding-box;
   border-radius: 20px;
   opacity: 1;
-}
+} */
 
 .app {
   z-index: 1;
