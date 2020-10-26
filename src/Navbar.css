@@ -5,7 +5,7 @@
     border: 1px solid #DADADA;
     border-radius: 10px;
     opacity: 1;
-    padding-left: 40px; 
+    padding-left: 3.5vw; 
     width: 50vw; 
 }
 
@@ -22,7 +22,7 @@
     position:absolute; 
     left:0; 
     top:0; 
-
+    /* margin-top: 3vw; */
 }
 
 .nav-bar {
@@ -34,7 +34,7 @@
 .logo {
     margin-top: 16px;
     margin-left: 7vw;
-    padding-right: 10vw;
+    padding-right: 8vw;
 }
 
 .message {
@@ -57,54 +57,127 @@
 
 @media screen and (max-width: 1024px) {
     .search-input {
-        width: 40vw;
+        width: 30vw;
+        margin-top: 3vw;
+        padding-left: 6vw; 
+        padding-right: 11vw;
     }
-    /* .logo {
-        height: 170vw;
-    } */
+    .logo {
+        height: 9vw;
+        width: auto;
+    }
+    .search-pic {
+        margin-left: 2vw;
+        margin-top: 6vw;
+    }
     .message {
         margin-right: auto;
-        margin-top: 50px;
+        margin-left: 6vw;
+        margin-top: 4.1vh;
     }
     .notification {
         margin-right: auto;
-        margin-top: 40px;
+        margin-top: 4.1vh;
     }
     .profile {
         margin-right: auto;
-        margin-top: 40px;
+        margin-top: 3.8vh;
     }
 }
 
 @media screen and (max-width: 768px) {
     .search-input {
         width: 20vw;
+        margin-top: 3vw;
+        padding-right: 20vw;
     }
-    /* .logo {
-        height: 170vw;
-    } */
+    .logo {
+        height: 10vw;
+        width: auto;
+    }
+    .search-pic {
+        margin-left: 2vw;
+        margin-top: 6vw;
+    }
     .message {
         margin-right: auto;
-        margin-top: 50px;
+        margin-top: 4.5vh;
     }
     .notification {
         margin-right: auto;
-        /* margin-top: 40px; */
+        margin-top: 4.5vh;
     }
     .profile {
         margin-right: auto;
-        /* margin-top: 40px; */
+        margin-top: 4.2vh;
     }
 }
 
 @media screen and (max-width: 667px) {
-    
+    .search-input {
+        width: 20vw;
+        margin-top: 3vw;
+        padding-left: 8vw; 
+    }
+    .logo {
+        height: 10vw;
+        width: auto;
+    }
+    .search-pic {
+        margin-left: 2vw;
+        margin-top: 6.5vw;
+    }
+    .message {
+        margin-right: auto;
+        margin-top: 4.5vh;
+    }
+    .notification {
+        margin-right: auto;
+        margin-top: 4.5vh;
+    }
+    .profile {
+        margin-right: auto;
+        margin-top: 4vh;
+    }
 }
 
 @media screen and (max-width: 480px) {
-   
+    .search-input {
+        width: 12vw;
+        margin-top: 3vw;
+        padding-left: 8vw; 
+    }
+    .search-pic {
+        margin-left: 2vw;
+        margin-top: 7.9vw;
+    }
 }
 
 @media (max-device-width: 320px) {
-   
+    .search-input {
+        width: 14vw;
+        margin-top: 3vw;
+        padding: 6vw 12vw 6vw; 
+    }
+    .logo {
+        height: 8vw;
+        width: auto;
+        margin-top: 8vw;
+    }
+    .search-pic {
+        margin-left: 4vw;
+        margin-top: 8.5vw;
+    }
+    .message {
+        margin-right: auto;
+        margin-top: 4.5vh;
+    }
+    .notification {
+        margin-right: auto;
+        margin-top: 4.5vh;
+    }
+    .profile {
+        margin-right: auto;
+        margin-top: 4vh;
+    }
 }
