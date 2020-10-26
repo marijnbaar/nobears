@@ -54,7 +54,7 @@ function Card({ src, closeCard }) {
 }
 
 Card.propTypes = {
-    closeCard: PropTypes.function.isRequired,
+    closeCard: PropTypes.func.isRequired,
     src: PropTypes.string.isRequired,
   };
 
